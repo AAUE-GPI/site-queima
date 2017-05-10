@@ -1,5 +1,8 @@
-<div style="height: calc(60% - 100px)"></div>
-<p id="demo" align="center" style="height: calc(40% - 100px); font-size: 30px"></p>
+<div style="height: calc(70% - 100px); width: 100%; " align="center">
+
+    <img style="margin-top: 30px; height: 100%; width: 100%;" src="<?php echo base_url()?>assets/logoqueima.svg">
+</div>
+<p id="demo" align="center " style="padding-top: 60px; height: calc(30% - 100px); font-size: 30px"></p>
 
 <!-- Passar isto para um ficheiro .js / Carregar o ficheiro js no footer-->
 <script>
