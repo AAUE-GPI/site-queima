@@ -36,7 +36,7 @@
     var countDownDate = new Date("May 26, 2017 22:00:00").getTime();
 
     get_countdown();
-    
+
     // Update the count down every 1 second
     var x = setInterval(function() {
 

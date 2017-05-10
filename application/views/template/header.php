@@ -44,7 +44,7 @@ $this->load->helper('url');
 <body style="margin: 0px; color: white; background-color: #2eb1e7; font-family: Arial;">
 <div style="width: 100%; height: 100px; background-color:rgba(0,0,0,0.3);">
     <div>
-        <img style="margin-left: 20px; margin-top:10px; height: 80px; width: auto; float: left" src="<?php echo base_url()?>assets/logo.png">
+        <img style="margin-left: 20px; margin-top:10px; height: 80px; width: auto; float: left" src="<?php echo base_url()?>assets/imgs/logo.png">
         <div style="float: right; margin-right: 20px">
 
             <div onclick="window.location='<?php echo base_url()?>'" class="hvr-fade">
