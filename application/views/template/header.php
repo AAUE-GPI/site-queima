@@ -41,10 +41,11 @@ $this->load->helper('url');
     html, body { height: 100%; width: 100%; margin: 0; }
 </style>
 
-<body style="margin: 0px; color: white; background-color: #2eb1e7; font-family: Arial;">
+<body style="margin: 0px; color: white; background-image: url('<?php echo base_url()?>assets/fundo_site_queima.svg') ; font-family: Arial; background-size: 100% auto">
 <div style="width: 100%; height: 100px; background-color:rgba(0,0,0,0.3);">
     <div>
-        <img style="margin-left: 20px; margin-top:10px; height: 80px; width: auto; float: left" src="<?php echo base_url()?>assets/imgs/logo.png">
+
+        <img style="margin-left: 100px; margin-top:10px; height: 80px; width: auto; float: left" src="<?php echo base_url()?>assets/logoaaue.svg">
         <div style="float: right; margin-right: 20px">
 
             <div onclick="window.location='<?php echo base_url()?>'" class="hvr-fade">
