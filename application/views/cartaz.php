@@ -1,0 +1,1 @@
+<img style="width: 100%; height: calc(100% - 100px)" src="<?php echo base_url()?>assets/cartaz.svg">

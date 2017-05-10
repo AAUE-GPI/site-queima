@@ -1,5 +1,23 @@
 <div style="height: calc(60% - 100px)"></div>
 <p id="demo" align="center" style="height: calc(40% - 100px); font-size: 30px"></p>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="<?php echo base_url()?>assets/css/style.css">
+<div class="row">
+    <div class="col-md-6"></div>
+    <div class="col-md-6">
+        <h1>Como Chegar:</h1>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1559.621815442177!2d-7.906112341843817!3d38.57423709186002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzjCsDM0JzI3LjIiTiA3wrA1NCcxOC4xIlc!5e0!3m2!1sen!2spt!4v1494452591426" width="600" height="450" frameborder="0" style="border:0; pointer-events:none;" allowfullscreen></iframe>
+        <br>
+        <a href="https://www.google.com/maps/place/38%C2%B034'27.3%22N+7%C2%B054'18.6%22W/@38.5742552,-7.9073557,17z/data=!3m1!4b1!4m5!3m4!1s0x0:0x0!8m2!3d38.574251!4d-7.905167?hl=en-US" target="blank"class="maparecinto"><h1><span class="glyphicon glyphicon-map-marker"></span>Mapa do Recinto</h1></a> 
+    </div>
+</div>
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
 <!-- Passar isto para um ficheiro .js / Carregar o ficheiro js no footer-->
 <script>
