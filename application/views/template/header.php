@@ -50,10 +50,10 @@ $this->load->helper('url');
             <div onclick="window.location='<?php echo base_url()?>'" class="hvr-fade">
                 <p style="text-align: center; vertical-align: middle;">Home</p>
             </div>
-            <div onclick="window.location='<?php echo base_url("cartaz")?>'" class="hvr-fade">
+            <div onclick="window.location='<?php echo base_url("index.php/cartaz")?>'" class="hvr-fade">
                 <p style="text-align: center; vertical-align: middle;">Cartaz</p>
             </div>
-            <div onclick="window.location='<?php echo base_url("precos")?>'" class="hvr-fade">
+            <div onclick="window.location='<?php echo base_url("index.php/precos")?>'" class="hvr-fade">
                 <p style="text-align: center; vertical-align: middle;">Preços</p>
             </div>
         </div>
