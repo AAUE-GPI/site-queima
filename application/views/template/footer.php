@@ -1,23 +1,27 @@
 <footer>
-    	<div class="row" style="width: 110%; height: 100px; background-color:black;">
-   	 		<div class="col-xs-2">
+    	<div class="row" style="margin: 0; width: 100%; height: 100px; background-color:black;">
+   	 		<div class="col col-sm-3 col-xs-6">
         		<img style="margin-left: 80px; margin-top:20px; height: 60px; width: auto; float: left" src="<?php echo base_url()?>assets/logoaaue.svg">
     		</div>
-    		<div class="col-xs-7 hidden-xs" style="padding-top:3%; padding-left:20%;">
+    		<div class="col col-sm-6 hidden-xs" style=" margin-top: 20px;text-align: center;">
     		<p>
-        		AAUE Queima das Fitas 2017
+        		Associação Acdémica da Universidade de Évora
     		</p>
+            <p>
+                Queima das Fitas 2017
+            </p>
     		</div>
 
-    		<div class="col-xs-3 hidden-xs" style="padding-top:1.5%" >
-    			
+    		<div class="col col-sm-3 col-xs-6" style="margin-top:20px; padding-right: 70px" >
+    			<div style="float: right; position: relative;">
     				<font size="2">
         				SEGUE-NOS:<br>
     				</font>
     				<a href="https://www.facebook.com/AAUEvora/?ref=br_rs">
-    				<img style="margin-left: 0px; margin-top:5px; height: 30px; width: auto; float: left" src="<?php echo base_url()?>assets/facebook.svg" >
+    				<img style="margin-left: 0px; margin-top:5px; height: 30px; width: auto;" src="<?php echo base_url()?>assets/facebook.svg" >
     				<a href="https://www.instagram.com/aauevora/">
-    				<img style="margin-left: 20px; margin-top:5px; height: 30px; width: auto; float: left" src="<?php echo base_url()?>assets/insta.svg">
+    				<img style="margin-left: 20px; margin-top:5px; height: 30px; width: auto;" src="<?php echo base_url()?>assets/insta.svg">
+                </div>
     		</div>
 
 		</div>
