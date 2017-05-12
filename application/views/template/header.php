@@ -9,7 +9,6 @@ $this->load->helper('url');
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Queima das Fitas - Évora</title>
     <link rel='shortcut icon' type='image/x-icon' href="<?php echo base_url()?>assets/imgs/favicon.ico" />
-    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
     <link href="<?php echo base_url()?>assets/css/bootstrap.min.css" rel="stylesheet">
     <link href="<?php echo base_url()?>assets/css/custom.css" rel="stylesheet">
 </head>
@@ -19,6 +18,7 @@ $this->load->helper('url');
     .hvr-fade {
         display: inline-block;
         line-height: 70px;
+        font-size: 17px;
         -webkit-transform: perspective(1px) translateZ(0);
         transform: perspective(1px) translateZ(0);
         box-shadow: 0 0 1px transparent;
@@ -42,7 +42,7 @@ $this->load->helper('url');
 
 </style>
 
-<body style="color: white; background-repeat: repeat-x; background-image: url('<?php echo base_url()?>assets/imgs/fundo_site_queima.svg') ; font-family: Arial; background-size: auto 100%">
+<body style="color: white; background-repeat: repeat-x; background-image: url('<?php echo base_url()?>assets/imgs/fundo_site_queima.svg') ; background-size: auto 100%">
 <div style="width: 100%; height: 100px; background-color:rgba(0,0,0,0.3);">
     <div>
         <img style="margin-left: 100px; margin-top:10px; height: 80px; width: auto; float: left" src="<?php echo base_url()?>assets/imgs/logoaaue.svg">
