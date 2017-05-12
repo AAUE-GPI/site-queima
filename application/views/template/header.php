@@ -49,16 +49,16 @@ $this->load->helper('url');
         <div style="float: right; margin-right: 20px">
 
             <div onclick="window.location='<?php echo base_url()?>'" class="hvr-fade">
-                <p id="texto-header" style="text-align: center; vertical-align: middle;">Home</p>
+                <p class="texto-header" style="text-align: center; vertical-align: middle;">Home</p>
             </div>
             <div onclick="window.location='<?php echo base_url("index.php/cartaz")?>'" class="hvr-fade">
-                <p id="texto-header" style="text-align: center; vertical-align: middle;">Cartaz</p>
+                <p class="texto-header" style="text-align: center; vertical-align: middle;">Cartaz</p>
             </div>
             <div onclick="window.location='<?php echo base_url("index.php/precos")?>'" class="hvr-fade">
-                <p id="texto-header" style="text-align: center; vertical-align: middle;">Preços</p>
+                <p class="texto-header" style="text-align: center; vertical-align: middle;">Preços</p>
             </div>
             <div onclick="location.href='https://goo.gl/forms/o5ayK7SV4jCnjk6i2'" class="hvr-fade">
-                <p id="texto-header" style="text-align: center; vertical-align: middle;">Contacta-nos!</p>
+                <p class="texto-header" style="text-align: center; vertical-align: middle;">Contacta-nos!</p>
             </div>
         </div>
     </div>
