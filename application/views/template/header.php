@@ -39,23 +39,26 @@ $this->load->helper('url');
     }
 
     html, body { height: 100%; width: 100%; margin: 0; }
+
 </style>
 
-<body style="color: white; background-repeat: repeat-x; background-image: url('<?php echo base_url()?>assets/fundo_site_queima.svg') ; font-family: Arial; background-size: auto 100%">
+<body style="color: white; background-repeat: repeat-x; background-image: url('<?php echo base_url()?>assets/imgs/fundo_site_queima.svg') ; font-family: Arial; background-size: auto 100%">
 <div style="width: 100%; height: 100px; background-color:rgba(0,0,0,0.3);">
     <div>
-
-        <img style="margin-left: 100px; margin-top:10px; height: 80px; width: auto; float: left" src="<?php echo base_url()?>assets/logoaaue.svg">
+        <img style="margin-left: 100px; margin-top:10px; height: 80px; width: auto; float: left" src="<?php echo base_url()?>assets/imgs/logoaaue.svg">
         <div style="float: right; margin-right: 20px">
 
             <div onclick="window.location='<?php echo base_url()?>'" class="hvr-fade">
-                <p style="text-align: center; vertical-align: middle;">Home</p>
+                <p id="texto-header" style="text-align: center; vertical-align: middle;">Home</p>
             </div>
             <div onclick="window.location='<?php echo base_url("index.php/cartaz")?>'" class="hvr-fade">
-                <p style="text-align: center; vertical-align: middle;">Cartaz</p>
+                <p id="texto-header" style="text-align: center; vertical-align: middle;">Cartaz</p>
             </div>
             <div onclick="window.location='<?php echo base_url("index.php/precos")?>'" class="hvr-fade">
-                <p style="text-align: center; vertical-align: middle;">Preços</p>
+                <p id="texto-header" style="text-align: center; vertical-align: middle;">Preços</p>
+            </div>
+            <div onclick="location.href='https://goo.gl/forms/o5ayK7SV4jCnjk6i2'" class="hvr-fade">
+                <p id="texto-header" style="text-align: center; vertical-align: middle;">Contacta-nos!</p>
             </div>
         </div>
     </div>
