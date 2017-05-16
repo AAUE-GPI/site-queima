@@ -3,7 +3,7 @@
 	<img style="margin-top: 30px; height: 100%; width: 100%;" src="<?php echo base_url() ?>assets/imgs/logoqueima.svg">
 </div>
 
-<p id="demo" align="center " style="padding-top: 60px; height: 30%; font-size: 30px"></p>
+<p id="demo" align="center " style="padding-top: 60px; height: 30%; font-size: 30px; text-align: center;"></p>
 
 
 <div class="row" style="margin: 0">
@@ -16,7 +16,7 @@
 </div>
 
 
-<div class="row" style="margin: 0">
+<div class="row" style="margin: 0;">
 	<div class="col-xs-6"></div>
 	<div class="col-xs-6" style="padding: 0">
 		<h1 class="texto-mapa">Como Chegar:</h1>

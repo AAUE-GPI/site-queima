@@ -42,7 +42,11 @@ $this->load->helper('url');
 
 </style>
 
-<body style="color: white; background-repeat: repeat-x; background-image: url('<?php echo base_url()?>assets/imgs/fundo_site_queima.svg') ; background-size: auto 100%">
+
+<body style="<?php if (uri_string()=='precos'){echo "color: white; background: url('" . base_url() . "assets/imgs/fundo_site_queima.svg') no-repeat center center fixed; -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;";} else{echo "color: white; background-repeat: repeat-x; background-image: url('" . base_url() . "assets/imgs/fundo_site_queima.svg') ; background-size: auto 100%";} ?>" >
 <div style="width: 100%; height: 100px; background-color:rgba(0,0,0,0.3);">
     <div>
         <img style="margin-left: 100px; margin-top:10px; height: 80px; width: auto; float: left" src="<?php echo base_url()?>assets/imgs/logoaaue.svg">
