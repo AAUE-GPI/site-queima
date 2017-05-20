@@ -22,28 +22,122 @@
 }
 
 html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
 	font-family: Avenir;
 }
 
+/***********************************************/
+/* Header */
 
-.map-container {
-	width: 100%;
-	margin: 50px 0 3000px;
+.header-container {
+  width: 100%;
+  height: 100px;
+  background-color:rgba(0,0,0,0.3);
 }
-.map-container iframe{
-	width: 100%;
-	display: block;
-	pointer-events: none;
-	position: relative; /* IE needs a position other than static */
+
+.logoaaue {
+  margin-left: 100px;
+  margin-top:10px;
+  height: 80px;
+  width: auto;
+  float: left
 }
-.map-container iframe.clicked{
-	pointer-events: auto;
+
+.texto-header {
+	margin-top: 10px;
+}
+
+.botoes-header {
+  float: right;
+  margin-right: 20px;
+  display: table;
+  height: 100%;
+}
+
+.hvr-fade {
+  line-height: 70px;
+  font-size: 17px;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  overflow: hidden;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: color, background-color;
+  transition-property: color, background-color;
+  margin: auto;
+  display: table-cell;
+  width: 150px;
+  height: 100px;
+  margin-top: 10px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.hvr-fade:hover, .hvr-fade:focus, .hvr-fade:active {
+  background-color: #2098D1;
+  color: white;
+  cursor: pointer;
+}
+
+/***********************************************/
+/* Homepage  */
+
+#counter {
+  padding-top: 60px;
+  height: 30%;
+  font-size: 30px;
+  text-align: center;
+}
+
+.container-mapa{
+  display: flex;
+	justify-content: center;
+	align-items: center;padding: 0; margin: 0;
 }
 
 .texto-mapa{
 	color: #20aae1;
 }
 
-.texto-header {
-	margin-top: 10px;
+/***********************************************/
+/* Preçário */
+
+.precos-logoqueima {
+  margin-top: 25%;
+  margin-left: 10%;
+  margin-bottom: 25%;
+  height: 70%;
+  width: 70%;
+}
+
+.precos-passesgerais {
+  text-align: center;
+  border-right: 1px solid white;
+  height: 100%;
+  margin-top: 5%;
+}
+
+.precos-passesdiarios {
+  text-align: center;
+  margin-top: 5%;
+}
+
+.precos-notas {
+  text-align: left;
+  margin-left: 5%;
+}
+
+/***********************************************/
+/* Cartaz */
+
+.cartaz-container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
 }

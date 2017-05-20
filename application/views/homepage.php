@@ -3,22 +3,21 @@
 	<img style="margin-top: 30px; height: 100%; width: 100%;" src="<?php echo base_url() ?>assets/imgs/logoqueima.svg">
 </div>
 
-<p id="demo" align="center " style="padding-top: 60px; height: 30%; font-size: 30px; text-align: center;"></p>
+<p id="counter" align="center"></p>
 
 
 <div class="row" style="margin: 0">
 	<div class="col-xs-6">
-		<img style="width: 100%; " src="<?php echo base_url() ?>assets/imgs/barrahome.svg">
+		<img style="width: 100%;" src="<?php echo base_url() ?>assets/imgs/barrahome.svg">
 	</div>
 	<div class="col-xs-6">
-		<img style="width: 100%; " src="<?php echo base_url() ?>assets/imgs/barrahome.svg">
+		<img style="width: 100%;" src="<?php echo base_url() ?>assets/imgs/barrahome.svg">
 	</div>
 </div>
 
 
-<div class="row" style="margin: 0;">
-	<div class="col-xs-6"></div>
-	<div class="col-xs-6" style="padding: 0">
+<div class="row container-mapa">
+	<div>
 		<h1 class="texto-mapa">Como Chegar:</h1>
 		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1559.621815442177!2d-7.906112341843817!3d38.57423709186002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzjCsDM0JzI3LjIiTiA3wrA1NCcxOC4xIlc!5e0!3m2!1sen!2spt!4v1494452591426"
 				width="600" height="450" frameborder="0" style="border:0;"
@@ -32,46 +31,3 @@
 		</a>
 	</div>
 </div>
-
-<!-- Passar isto para um ficheiro .js / Carregar o ficheiro js no footer-->
-<script>
-    function get_countdown() {
-        // Get todays date and time
-        var now = new Date().getTime();
-
-        // Find the distance between now an the count down date
-        var distance = countDownDate - now;
-
-        // Time calculations for days, hours, minutes and seconds
-        var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-        var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-        var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-        var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-
-        // Display the result in the element with id="demo"
-        document.getElementById("demo").innerHTML =
-            '<div style="display: inline-block; width: 150px" align="center"><p>' + days + '</p><p> DIAS </p></div>' +
-            '<div style="display: inline-block; width: 150px" align="center"><p>' + hours + '</p><p> HORAS </p></div>' +
-            '<div style="display: inline-block; width: 150px" align="center"><p>' + minutes + '</p><p> MINUTOS </p></div>' +
-            '<div style="display: inline-block; width: 200px" align="center"><p>' + seconds + '</p><p> SEGUNDOS </p></div>';
-
-        // If the count down is finished, write some text
-        if (distance < 0) {
-            clearInterval(x);
-            document.getElementById("demo").innerHTML = "EXPIRED";
-        }
-    }
-
-    // Set the date we're counting down to
-    var countDownDate = new Date("May 26, 2017 22:00:00").getTime();
-
-    get_countdown();
-
-    // Update the count down every 1 second
-    var x = setInterval(function () {
-
-        // Get todays date and time
-        get_countdown();
-
-    }, 1000);
-</script>
