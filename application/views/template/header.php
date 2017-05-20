@@ -13,57 +13,25 @@ $this->load->helper('url');
     <link href="<?php echo base_url()?>assets/css/custom.css" rel="stylesheet">
 </head>
 
-<!-- Passar isto para um ficheiro .css -->
-<style>
-    .hvr-fade {
-        display: inline-block;
-        line-height: 70px;
-        font-size: 17px;
-        -webkit-transform: perspective(1px) translateZ(0);
-        transform: perspective(1px) translateZ(0);
-        box-shadow: 0 0 1px transparent;
-        overflow: hidden;
-        -webkit-transition-duration: 0.3s;
-        transition-duration: 0.3s;
-        -webkit-transition-property: color, background-color;
-        transition-property: color, background-color;
-        margin: auto;
-        width: 150px;
-        height: 100px
-    }
-
-    .hvr-fade:hover, .hvr-fade:focus, .hvr-fade:active {
-        background-color: #2098D1;
-        color: white;
-        cursor: pointer;
-    }
-
-    html, body { height: 100%; width: 100%; margin: 0; }
-
-</style>
-
-
-<body style="<?php if (uri_string()=='precos'){echo "color: white; background: url('" . base_url() . "assets/imgs/fundo_site_queima.svg') no-repeat center center fixed; -webkit-background-size: cover;
+<!-- retirar uri_string()=='precos' do if quando houver cartaz -->
+<body style="<?php if (uri_string()=='precos' or uri_string()=='cartaz'){echo "color: white; background: url('" . base_url() . "assets/imgs/fundo_site_queima.svg') no-repeat center center fixed; -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;";} else{echo "color: white; background-repeat: repeat-x; background-image: url('" . base_url() . "assets/imgs/fundo_site_queima.svg') ; background-size: auto 100%";} ?>" >
-<div style="width: 100%; height: 100px; background-color:rgba(0,0,0,0.3);">
-    <div>
-        <img style="margin-left: 100px; margin-top:10px; height: 80px; width: auto; float: left" src="<?php echo base_url()?>assets/imgs/logoaaue.svg">
-        <div style="float: right; margin-right: 20px">
-
-            <div onclick="window.location='<?php echo base_url()?>'" class="hvr-fade">
-                <p class="texto-header" style="text-align: center; vertical-align: middle;">Home</p>
-            </div>
-            <div onclick="window.location='<?php echo base_url("index.php/cartaz")?>'" class="hvr-fade">
-                <p class="texto-header" style="text-align: center; vertical-align: middle;">Cartaz</p>
-            </div>
-            <div onclick="window.location='<?php echo base_url("index.php/precos")?>'" class="hvr-fade">
-                <p class="texto-header" style="text-align: center; vertical-align: middle;">Preços</p>
-            </div>
-            <div onclick="location.href='https://goo.gl/forms/VP2mtV5JEEDTW3L22'" class="hvr-fade">
-                <p class="texto-header" style="text-align: center; vertical-align: middle;">Contacta-nos!</p>
-            </div>
+<div class="header-container">
+    <img class="logoaaue" src="<?php echo base_url()?>assets/imgs/logoaaue.svg">
+    <div class="botoes-header">
+        <div onclick="window.location='<?php echo base_url()?>'" class="hvr-fade">
+            <p class="texto-header">Home</p>
+        </div>
+        <div onclick="window.location='<?php echo base_url("index.php/cartaz")?>'" class="hvr-fade">
+            <p class="texto-header">Cartaz</p>
+        </div>
+        <div onclick="window.location='<?php echo base_url("index.php/precos")?>'" class="hvr-fade">
+            <p class="texto-header">Preços</p>
+        </div>
+        <div onclick="location.href='https://goo.gl/forms/VP2mtV5JEEDTW3L22'" class="hvr-fade">
+            <p class="texto-header">Contacta-nos!</p>
         </div>
     </div>
 </div>
