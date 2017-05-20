@@ -37,7 +37,7 @@ html, body {
   background-color:rgba(0,0,0,0.3);
 }
 
-.logoaaue {
+.logoaaue-header {
   margin-left: 100px;
   margin-top:10px;
   height: 80px;
@@ -80,6 +80,53 @@ html, body {
   background-color: #2098D1;
   color: white;
   cursor: pointer;
+}
+
+/***********************************************/
+/* Footer */
+
+.footer-container {
+  margin: 0;
+  width: 100%;
+  height: 100px;
+  background-color:black;
+}
+
+.logoaaue-footer {
+  margin-left: 80px;
+  margin-top: 20px;
+  height: 60px;
+  width: auto;
+  float: left;
+}
+
+.texto-footer {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.logofacebook {
+  margin-left: 0px;
+  margin-top:5px;
+  height: 30px;
+  width: auto;
+}
+
+.logoinstagram {
+  margin-left: 20px;
+  margin-top:5px;
+  height: 30px;
+  width: auto;
+}
+
+.redes-sociais {
+  float: right;
+  position: relative;
+}
+
+.redes-sociais-container {
+  margin-top:20px;
+  padding-right: 70px;
 }
 
 /***********************************************/
@@ -134,7 +181,7 @@ html, body {
 /* Cartaz */
 
 .cartaz-container {
-  height: 100%;
+  height: calc(100% - 100px);
   width: 100%;
   display: flex;
   position: relative;
