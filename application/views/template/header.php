@@ -29,8 +29,10 @@ $this->load->helper('url');
         <div onclick="window.location='<?php echo base_url("index.php/precos")?>'" class="hvr-fade">
             <p class="texto-header">Preços</p>
         </div>
-        <div onclick="location.href='https://goo.gl/forms/VP2mtV5JEEDTW3L22'" class="hvr-fade">
-            <p class="texto-header">Contacta-nos!</p>
-        </div>
+        <a href="https://goo.gl/forms/VP2mtV5JEEDTW3L22" class="hvr-fade contacto" target="blank" style="text-decoration:none; color: inherit;">
+          <div>
+              <p class="texto-header">Contacta-nos!</p>
+          </div>
+        </a>
     </div>
 </div>

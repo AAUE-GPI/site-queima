@@ -1,7 +1,9 @@
 <footer>
 	<div class="row footer-container">
 		<div class="col col-sm-3 col-xs-6">
-			<img class="logoaaue-footer" src="<?php echo base_url()?>assets/imgs/logoaaue.svg">
+			<a href="https://www.facebook.com/AAUEvora/" target="blank">
+				<img class="logoaaue-footer" src="<?php echo base_url()?>assets/imgs/logoaaue.svg">
+			</a>
 		</div>
 		<div class="col col-sm-6 hidden-xs texto-footer">
 			<p>
@@ -17,9 +19,9 @@
 				<font size="2">
 					SEGUE-NOS:<br>
 				</font>
-				<a href="https://www.facebook.com/AAUEvora/?ref=br_rs">
+				<a href="https://www.facebook.com/queimadasfitasevora" target="blank">
 				<img class="logofacebook" src="<?php echo base_url()?>assets/imgs/facebook.svg" ></a>
-				<a href="https://www.instagram.com/aauevora/">
+				<a href="https://www.instagram.com/aauevora/" target="blank">
 				<img class="logoinstagram" src="<?php echo base_url()?>assets/imgs/insta.svg"></a>
 			</div>
 		</div>
