@@ -47,3 +47,14 @@ height: 100%; margin-top: 5%;">
 
   </div>
 </div>
+
+<div class="row">
+  <div class="col col-md-6" style="test-align: center; margin-left: 5%;">
+<p><h6>* Não Estudante: Tens que ter mais de 16 anos e fazer-te acompanhar de cartão de cidadão</h6></p>
+<p><h6>* Estudante Universitário: Cartão da Universidade atualizado e C.C. No caso de ser aluno da UE basta aceder ao SIIUE</h6></p>
+<p><h6>* Sócio: Cartão de Sócio com as quotas em dia e o C.C.</h6></p>
+<p><h6>* Bolseiro: Cartão de Cidadão</h6></p>
+<p><h6>* Erasmus: Cartão de Erasmus</h6></p>
+
+  </div>
+</div>
