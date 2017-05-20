@@ -13,13 +13,12 @@ $this->load->helper('url');
     <link href="<?php echo base_url()?>assets/css/custom.css" rel="stylesheet">
 </head>
 
-<!-- retirar uri_string()=='precos' do if quando houver cartaz -->
 <body style="<?php if (uri_string()=='precos' or uri_string()=='cartaz'){echo "color: white; background: url('" . base_url() . "assets/imgs/fundo_site_queima.svg') no-repeat center center fixed; -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;";} else{echo "color: white; background-repeat: repeat-x; background-image: url('" . base_url() . "assets/imgs/fundo_site_queima.svg') ; background-size: auto 100%";} ?>" >
 <div class="header-container">
-    <img class="logoaaue" src="<?php echo base_url()?>assets/imgs/logoaaue.svg">
+    <img class="logoaaue-header" src="<?php echo base_url()?>assets/imgs/logoaaue.svg">
     <div class="botoes-header">
         <div onclick="window.location='<?php echo base_url()?>'" class="hvr-fade">
             <p class="texto-header">Home</p>
