@@ -81,30 +81,6 @@ html, body {
   cursor: pointer;
 }
 
-
-ul.header-container {
-    list-style-type: none;
-}
-
-ul.header-container li {
-  float: left;
-}
-
-ul.header-container li a:hover a:focus a:active {
-  background-color: #2098D1;
-  color: white;
-  cursor: pointer;
-}
-
-ul.header-container li.right {
-  float: right;
-}
-
-@media screen and (max-width: 600px){
-    ul.header-container li.right,
-    ul.header-container li {float: none;}
-}
-
 a {
   text-decoration: none;
   color: inherit;
