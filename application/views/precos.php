@@ -54,7 +54,7 @@
         </div>
 
         <div class="col col-sm-3" style="color: #1c3761;">
-          <h4>GRATUÍTO</h4>
+          <h4>GRATUITO</h4>
           <h4>8€</h4>
           <h4>3€</h4>
           <h4>5€</h4>
@@ -66,7 +66,7 @@
         </div>
 
         <div class="col col-sm-3" style="color: #1c3761;">
-          <h4>GRATUÍTO</h4>
+          <h4>GRATUITO</h4>
           <h4>9€</h4>
           <h4>4€</h4>
           <h4>7€</h4>
@@ -78,7 +78,7 @@
         </div>
 
         <div class="col col-sm-3" style="color: #1c3761;">
-          <h4>GRATUÍTO</h4>
+          <h4>GRATUITO</h4>
           <h4>13€</h4>
           <h4>6€</h4>
           <h4>9€</h4>
