@@ -272,14 +272,15 @@ iframe {
 
 .precos-passesgerais {
   text-align: center;
-  border-right: 1px solid white;
-  height: 100%;
+
   margin-top: 5%;
 }
 
 .precos-passesdiarios {
   text-align: center;
   margin-top: 5%;
+  border-left: 1px solid white;
+  height: 100%;
 }
 
 .precos-notas {
