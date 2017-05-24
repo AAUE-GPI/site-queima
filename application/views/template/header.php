@@ -16,21 +16,49 @@ $this->load->helper('url');
 <body style="<?php if (uri_string()=='precos' or uri_string()=='cartaz'){echo "color: white; background: url('" . base_url() . "assets/imgs/fundo_site_queima.svg') no-repeat center center fixed; -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover;";} else{echo "color: white; background-repeat: repeat-x; background-image: url('" . base_url() . "assets/imgs/fundo_site_queima.svg') ; background-size: auto 100%";} ?>" >
-<div class="header-container">
-    <img class="logoaaue-header" src="<?php echo base_url()?>assets/imgs/logoaaue.svg">
-    <div class="botoes-header">
-        <div onclick="window.location='<?php echo base_url()?>'" class="hvr-fade">
-            <p class="texto-header">Home</p>
-        </div>
-        <div onclick="window.location='<?php echo base_url("index.php/cartaz")?>'" class="hvr-fade">
-            <p class="texto-header">Cartaz</p>
-        </div>
-        <div onclick="window.location='<?php echo base_url("index.php/precos")?>'" class="hvr-fade">
-            <p class="texto-header">Preços</p>
-        </div>
-        <div onclick="location.href='https://goo.gl/forms/VP2mtV5JEEDTW3L22'" class="hvr-fade">
-            <p class="texto-header">Contacta-nos!</p>
-        </div>
-    </div>
-</div>
+  background-size: cover;";} else{echo "color: white; background-repeat: repeat-x; background: url('" . base_url() . "assets/imgs/fundo_site_queima.svg') no-repeat center center; -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;";} ?>" >
+
+<div class="site-container">
+  <div class="site-pusher">
+    <header class="header-container">
+
+      <!-- ícone que aparece em ecrãs mais pequenos -->
+      <a href="#" class="icone-header" id="icone-header" align="center"></a>
+
+      <a href="<?php echo base_url()?>">
+        <img class="logoaaue-header" src="<?php echo base_url()?>assets/imgs/logoaaue.svg">
+      </a>
+
+      <nav class="botoes-header">
+        <a href="<?php echo base_url()?>" class="hvr-fade"
+           style="text-decoration:none; color: inherit;">
+          <div>
+              <p class="texto-header">Home</p>
+          </div>
+        </a>
+
+        <a href="<?php echo base_url("index.php/cartaz")?>" class="hvr-fade"
+           style="text-decoration:none; color: inherit;">
+          <div>
+              <p class="texto-header">Cartaz</p>
+          </div>
+        </a>
+
+        <a href="<?php echo base_url("index.php/precos")?>" class="hvr-fade"
+           style="text-decoration:none; color: inherit;">
+          <div>
+              <p class="texto-header">Preços</p>
+          </div>
+        </a>
+
+        <a href="https://goo.gl/forms/VP2mtV5JEEDTW3L22" class="hvr-fade contacto"
+           target="blank" style="text-decoration:none; color: inherit;">
+          <div>
+              <p class="texto-header">Contacta-nos!</p>
+          </div>
+        </a>
+      </nav>
+
+    </header>

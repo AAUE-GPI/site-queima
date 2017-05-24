@@ -17,10 +17,10 @@ function get_countdown() {
 
 		// Display the result in the element with id="counter"
 		document.getElementById("counter").innerHTML =
-				'<div style="display: inline-block; width: 150px" align="center"><p>' + days + '</p><p> DIAS </p></div>' +
-				'<div style="display: inline-block; width: 150px" align="center"><p>' + hours + '</p><p> HORAS </p></div>' +
-				'<div style="display: inline-block; width: 150px" align="center"><p>' + minutes + '</p><p> MINUTOS </p></div>' +
-				'<div style="display: inline-block; width: 200px" align="center"><p>' + seconds + '</p><p> SEGUNDOS </p></div>';
+				'<div style="display: inline-block; padding: 10px;" align="center"><p>' + days + '</p><p> DIAS </p></div>' +
+				'<div style="display: inline-block; padding: 10px;" align="center"><p>' + hours + '</p><p> HORAS </p></div>' +
+				'<div style="display: inline-block; padding: 10px;" align="center"><p>' + minutes + '</p><p> MINUTOS </p></div>' +
+				'<div style="display: inline-block; padding: 10px;" align="center"><p>' + seconds + '</p><p> SEGUNDOS </p></div>';
 
 		// If the count down is finished, write some text
 		if (distance < 0) {
